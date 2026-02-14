@@ -23,6 +23,8 @@ git clone https://github.com/ubaidraye/android_kernel_motorola_sm8475-devicetree
 git clone https://github.com/themuppets/proprietary_vendor_motorola_eqs vendor/motorola/eqs --depth=1
 git clone https://github.com/ubaidraye/proprietary_vendor_motorola_sm8475-common -b lineage-23.2 vendor/motorola/sm8475-common --depth=1
 
+# clone hardware source
+git clone https://github.com/lineageos/android_hardware_motorola hardware/motorola
 
 # apply kernelsu-next
 cd kernel/motorola/sm8475
