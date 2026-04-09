@@ -10,8 +10,8 @@ repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfi
 /opt/crave/resync.sh || repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 
 # clone devicetrees
-git clone https://github.com/ubaidraye/android_device_motorola_eqs -b 16 device/motorola/eqs
-git clone https://github.com/ubaidraye/android_device_motorola_sm8475-common -b 16 device/motorola/sm8475-common 
+git clone https://github.com/ubaidraye/android_device_motorola_eqs -b infinity-16 device/motorola/eqs
+git clone https://github.com/ubaidraye/android_device_motorola_sm8475-common -b infinity-16 device/motorola/sm8475-common 
 
 # clone kernel
 git clone https://github.com/ubaidraye/android_kernel_motorola_sm8475 -b lineage-23.2 kernel/motorola/sm8475
