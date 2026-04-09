@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf prebuilts/clang
 rm -rf hardware/motorola
 rm -rf device/motorola
 rm -rf kernel/motorola
