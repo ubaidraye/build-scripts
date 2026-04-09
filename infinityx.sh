@@ -33,7 +33,7 @@ cd ../../..
 
 
 # get A15 Vendor
-wget https://mirrors.lolinet.com/firmware/lenomola/2022/eqs/official/RETAIL/EQS_RETAIL_15_V1SQS35H.58-10-8-1_subsidy_DEFAULT_regulatory_DEFAULT_cid50_CFC.xml.zip
+wget https://mirrors-obs-1.lolinet.com/firmware/lenomola/2022/eqs/official/RETAIL/EQS_RETAIL_15_V1SQS35H.58-10-8-1_subsidy_DEFAULT_regulatory_DEFAULT_cid50_CFC.xml.zip
 
 unzip EQS_RETAIL_15_V1SQS35H.58-10-8-1*.zip -d device/motorola/eqs/A15-vendor
 
