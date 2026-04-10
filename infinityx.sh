@@ -1,5 +1,6 @@
 #!/bin/bash
 rm -rf prebuilts/clang
+rm -rf lineage/scripts
 rm -rf hardware/motorola
 rm -rf device/motorola
 rm -rf kernel/motorola
@@ -26,6 +27,7 @@ git clone https://github.com/ubaidraye/proprietary_vendor_motorola_sm8475-common
 
 # clone hardware source
 git clone https://github.com/lineageos/android_hardware_motorola hardware/motorola
+git clone https://github.com/LineageOS/scripts.git lineage/scripts
 
 # apply kernelsu-next
 cd kernel/motorola/sm8475
