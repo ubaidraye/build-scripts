@@ -32,6 +32,12 @@ cd kernel/motorola/sm8475
 curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
 cd ../../..
 
+# apply sepolicy patch
+cd system/sepolicy/private/compat/202404 && wget -O sepolicy.patch "https://raw.githubusercontent.com/ubaidraye/build-scripts/refs/heads/main/patches/sepolicy.patch" && git apply sepolicy.patch && cd ../../../../../
+
+# apply OTA patch
+cd vendor/infinity/build/tools && wget -O ota.patch "https://raw.githubusercontent.com/ubaidraye/build-scripts/refs/heads/main/patches/generate_ota.patch" && git apply ota.patch && cd ../../../../
+
 export BUILD_USERNAME=RayeUB
 export BUILD_HOSTNAME=crave
 export DISABLE_STUB_VALIDATION=true
