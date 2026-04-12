@@ -1,0 +1,12 @@
+diff --git a/private/compat/202404/202404.ignore.cil b/private/compat/202404/202404.ignore.cil
+index 69e7d5e..666c2a6 100644
+--- a/private/compat/202404/202404.ignore.cil
++++ b/private/compat/202404/202404.ignore.cil
+@@ -31,6 +31,7 @@
+     sysfs_firmware_acpi_tables
+     tee_service_contexts_file
+     trusty_security_vm_sys_vendor_prop
++    vendor_thermal_prop
+     virtual_camera
+     virtual_camera_exec
+     virtual_face
